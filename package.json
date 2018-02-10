@@ -6,7 +6,8 @@
     "antd-mobile": "^2.1.6",
     "react": "^16.2.0",
     "react-app-rewired": "^1.4.1",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -15,6 +16,9 @@
     "eject": "react-app-rewired eject"
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.6.3"
+    "babel-plugin-import": "^1.6.3",
+    "node-sass": "^4.7.2",
+    "react-app-rewire-css-modules": "github:codebandits/react-app-rewire-css-modules",
+    "sass-loader": "^6.0.6"
   }
 }
