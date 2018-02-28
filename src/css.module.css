@@ -1,3 +1,40 @@
 .page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
   background-color: #efeff4;
+}
+.searchBar :global(.am-search-input .am-search-synthetic-ph){
+  padding-left: 15px;
+  text-align: left;
+}
+.btnFlex{
+  padding: 0 10px;
+}
+.btn{
+  width: auto;
+  height: 30px;
+  font-size: 14px;
+  padding: 0 15px;
+  line-height: 30px;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+}
+
+.tabBar{
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+.contentGroup{
+  background-color: #fff;
+}
+
+.subTitle{
+  font-size: 14px;
 }
