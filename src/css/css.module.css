@@ -34,7 +34,18 @@
 .contentGroup{
   background-color: #fff;
 }
-
+.contentGroup :global(.am-list-body){
+  border-top: 0;
+}
+.contentGroup :global(.am-list-item:not(:last-child)){
+  border-bottom: 1px solid #eee;
+}
+.contentGroup :global(.am-list-body div:not(:last-child) .am-list-line){
+  border-bottom: 0;
+}
 .subTitle{
   font-size: 14px;
+}
+html .contentGroup :global(.am-list-body::before){
+  background-color: transparent;
 }

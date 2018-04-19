@@ -1,0 +1,99 @@
+.music{
+    position: absolute;
+    top: 290px;
+    right: -126px;
+    width: 44px;
+    height: 55px;
+    background: linear-gradient(to bottom,#156ea6,#3182b7);
+}
+.movement{
+    display: flex;
+    align-items: center;
+}
+.music #waves li {
+    height: 100%;
+    width: 16px;
+    overflow: hidden;
+    margin-right: 1px;
+}
+.music li span {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 6px;
+    width: 4px;
+    background-color: #8ad9ce;
+}
+.music .li1 span {
+    animation: waves 1s linear 0s infinite alternate;
+    -webkit-animation: waves 6s linear 0s infinite alternate;
+}
+
+.music .li2 span {
+    animation: waves 3s linear 0s infinite alternate;
+    -webkit-animation: waves 2s linear 0s infinite alternate;
+}
+
+.music .li3 span {
+    animation: waves 2s linear 0s infinite alternate;
+    -webkit-animation: waves 1s linear 0s infinite alternate;
+}
+
+.music .li4 span {
+    animation: waves 2.5s linear 0s infinite alternate;
+    -webkit-animation: waves 0.8s linear 0s infinite alternate;
+}
+
+.music .li5 span {
+    animation: waves 5s linear 0s infinite alternate;
+    -webkit-animation: waves 0.7s linear 0s infinite alternate;
+}
+
+.music .li6 span {
+    animation: waves 8s linear 0s infinite alternate;
+    -webkit-animation: waves 0.5s linear 0s infinite alternate;
+}
+.music .li7 span {
+    animation: waves 8s linear 0s infinite alternate;
+    -webkit-animation: waves 0.6s linear 0s infinite alternate;
+}
+@-webkit-keyframes waves {
+    10% {
+        height: 20%;
+    }
+    20% {
+        height: 60%;
+    }
+    40% {
+        height: 40%;
+    }
+    50% {
+        height: 100%;
+    }
+    100% {
+        height: 50%;
+    }
+}
+
+@keyframes waves {
+    10% {
+        height: 20%;
+    }
+    20% {
+        height: 60%;
+    }
+    40% {
+        height: 40%;
+    }
+    50% {
+        height: 100%;
+    }
+    100% {
+        height: 50%;
+    }
+}
+.ani-li{
+    width: 16px;
+    height:6px;
+
+}
